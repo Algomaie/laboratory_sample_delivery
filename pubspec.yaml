@@ -1,0 +1,83 @@
+name: alpha
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+dependencies:
+  animated_bottom_navigation_bar: ^1.2.0
+  auto_size_text: ^3.0.0
+  avatar_glow: ^2.0.2
+  cached_network_image: ^3.2.1
+  country_code_picker: ^2.0.2
+  cupertino_icons: ^1.0.2
+  device_info_plus: ^9.1.2
+  dio: ^4.0.6
+  dots_indicator: ^2.1.0
+  dotted_border: ^2.0.0+3
+  dropdown_search: ^5.0.6
+  firebase_auth: ^4.2.5
+  firebase_core: ^2.4.1
+  firebase_messaging: ^14.2.1
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^16.3.2
+  flutter_timezone: ^1.0.8
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  google_fonts: ^4.0.0
+  hexcolor: ^3.0.1
+  image: ^4.1.7
+  image_picker: ^1.0.0
+  introduction_screen: ^3.0.1
+  path: ^1.7.0
+  path_provider: ^2.0.14
+  phone_number: ^1.0.0
+  pointer_interceptor: ^0.9.0+1
+  rxdart: ^0.27.7
+  shared_preferences: ^2.0.15
+  timeago: ^3.0.0
+  url_launcher: ^6.2.4
+  cloud_firestore: ^4.15.8
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# # For information on the generic Dart part of this file, see the
+# # following page: https://dart.dev/tools/pub/pubspec
+# dependency_overrides:
+#   modal_bottom_sheet:
+#     git:
+#       url: https://github.com/danReynolds/modal_bottom_sheet.git
+#       path: modal_bottom_sheet
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+    - assets/objects/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/font/Cairo.ttf
+          weight: 400
+        - asset: assets/font/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/font/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/font/Cairo-Black.ttf
+          weight: 900
+#flutter build apk --release --target-platform android-arm64  
+# flutter build apk --release     
+# build apk --split-per-abi  
+#lutter build appbundle  
