@@ -27,9 +27,13 @@
 ## 📸 لقطات من التطبيق (Screenshots)
 
 <p align="center">
-  <img src="assets/image/intro2.jpg" width="250" alt="Intro 1"/>
-  <img src="assets/image/intro3.jpg" width="250" alt="Intro 2"/> 
-  <img src="assets/image/bg11.jpg" width="250" alt="Background"/>
+  <img src="assets/image/splash.png" width="200" alt="Splash"/>
+  <img src="assets/image/intro.png" width="200" alt="Intro"/> 
+  <img src="assets/image/home.png" width="200" alt="Home"/>
+  <br><br>
+  <img src="assets/image/active.png" width="200" alt="Active Deliveries"/>
+  <img src="assets/image/mosleen.png" width="200" alt="Delivery Agents"/>
+  <img src="assets/image/setting.png" width="200" alt="Settings"/>
 </p>
 
 ## 🚀 البدء السريع (Getting Started)
