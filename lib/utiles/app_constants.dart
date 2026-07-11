@@ -3,7 +3,7 @@ import 'package:alpha/models/language_model.dart';
 
 class AppConstants {
   // ignore: constant_identifier_names
-  static const APP_NAME = 'IDEALOOK';
+  static const APP_NAME = 'عينتي';
   static const IS_LOGIN = 'USER_IS_LOGIN';
   static const USER_ID = 'USER_ID';
   static const isVerfied = 'isVerfied';
