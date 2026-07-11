@@ -1,0 +1,88 @@
+name: alpha
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+dependencies:
+  animated_bottom_navigation_bar: ^1.2.0
+  auto_size_text: ^3.0.0
+  avatar_glow: ^2.0.2
+  cached_network_image: ^3.2.1
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.19.0
+  firebase_core: ^2.30.0
+  firebase_messaging: ^14.2.1
+  firebase_storage: ^11.6.5
+  image_picker: ^1.1.2
+  device_info_plus: ^10.1.0
+  uuid: ^4.4.0
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.1.0
+  flutter_local_notifications: ^17.1.2
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  google_fonts: ^6.2.1
+  googleapis_auth: ^1.4.1
+  hexcolor: ^3.0.1
+  http: ^1.2.0
+  intl: ^0.18.1
+  shared_preferences: ^2.1.1
+  timeago: ^3.0.0
+  url_launcher: ^6.2.4
+  cloud_firestore: ^4.15.8
+  dots_indicator: ^4.0.1
+  pointer_interceptor: ^0.10.1+2
+  introduction_screen: ^4.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/image/logo.jpg"
+  remove_alpha_ios: true
+# # For information on the generic Dart part of this file, see the
+# # following page: https://dart.dev/tools/pub/pubspec
+# dependency_overrides:
+#   modal_bottom_sheet:
+#     git:
+#       url: https://github.com/danReynolds/modal_bottom_sheet.git
+#       path: modal_bottom_sheet
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+    - assets/objects/
+    - assets/service-account.json
+    - .env
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/font/Cairo.ttf
+          weight: 400
+        - asset: assets/font/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/font/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/font/Cairo-Black.ttf
+          weight: 900
+#flutter build apk --release --target-platform android-arm64  
+# flutter build apk --release     
+# build apk --split-per-abi  
+#lutter build appbundle  
